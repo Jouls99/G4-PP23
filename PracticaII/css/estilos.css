@@ -1,0 +1,81 @@
+*{
+    margin: 0;    /* Reseteamos el margen */
+    padding: 0;     /* Reseteamos el pading */
+    text-decoration: none;   /* Quitamos el subrayado */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /* Agregamos una fuente */
+}
+
+body {
+    background-color: grey;
+}
+.header-barra {
+    background-color: #1d7eec;
+    color:#212127;
+    padding: 20px;
+    text-align: center;
+    
+}
+/* Estilos de Iniciar Sesión */
+.contenedor-sesion {
+    background-color:  #1d7eec;
+    border: solid 5px  #1d7eec;
+    border-radius: 5px;
+    text-align: center; 
+    margin: 60px;
+    padding: 25px; 
+    
+}
+.user-ico {
+    border-radius: 25px;
+    width: 60px;
+    position: absolute;
+    top: 100px;
+    left: 200px;   
+}
+.btn-sesion {
+    background-color: rgb(5, 5, 5);
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0px;
+    padding: 0%;
+}
+.container {
+    /*background-color: chartreuse;*/
+    text-align: center;
+    margin: 60px;
+    height: 70%; 
+}
+.btn {
+    /*background-color: aqua;*/
+    margin: 20px;
+    padding: 10px;       
+}
+.boton {
+    display: inline-block;
+    background-color:  #1d7eec;
+    color: #212127;
+    width: 90px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.back-button {
+    background-color:  #1d7eec;
+    color: #212127;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px; /* Aumentar el tamaño del carácter */
+    position: absolute; /*Es absoluto con respecto al boody*/
+    left: 0px;
+    top:2px;  
+}
+.ico-login {
+    width: 50px;
+    position: absolute; /*Es absoluto con respecto al boody*/
+    right: 12px;
+    top:6px;  
+}
