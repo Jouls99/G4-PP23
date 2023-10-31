@@ -1,0 +1,123 @@
+*{
+    margin: 0;    /* Reseteamos el margen */
+    padding: 0;     /* Reseteamos el pading */
+    text-decoration: none;   /* Quitamos el subrayado */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;  /* Agregamos una fuente */
+}
+
+body {
+    background-color: #59a9df;
+}
+.header-barra {
+    background-color: #1d7eec;
+    color:#212127;
+    padding: 20px;
+    text-align: center;    
+}
+.ico-login {
+    width: 50px;
+    position: absolute; /*Es absoluto con respecto al boody*/
+    right: 12px;
+    top:6px;  
+}
+.back-button {
+    background-color:  #1d7eec;
+    color: #212127;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 30px; /* Aumentar el tamaño del carácter */
+    position: absolute; /*Es absoluto con respecto al boody*/
+    left: 0px;
+    top:2px;  
+}
+/* Estilos de Iniciar Sesión */
+.contenedor-sesion {
+    background-color:  #7aade7;
+    border: solid 3px  #eeeff1;
+    border-radius: 10px;
+    text-align: center; 
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding: 0px; 
+    position: relative;
+    top: 75px;    
+}
+.contenedor-input {
+    /*background-color: rgb(206, 202, 182);*/
+    position: relative;
+    top:60px;
+}
+.input {
+    height: 20px;
+    margin:3px;
+    padding:4px    
+}
+.btn-iniciar {
+    background-color:  #2460a5;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 8px;
+}
+.user-ico {
+    width: 80px;
+    position: absolute;
+    top:8px;
+    left: 110px;   
+}
+.nardelli-ico {
+    width: 108px;
+    border-radius: 30px;
+    position: absolute;
+    top:-66px;
+    left: 100px;   
+}
+.container-menu {
+    /*background-color: chartreuse;*/
+    text-align: center;
+    margin: 60px;
+    height: 70%; 
+}
+.btn {
+    /*background-color: aqua;*/
+    margin: 20px;
+    padding: 10px;       
+}
+.boton-menu {
+    background-color:  #2460a5;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    width: 90px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.contenedor-clientes {
+    text-align: center; 
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    padding: 0px; 
+    position: relative;
+    top: 75px;    
+}
+.c{
+    margin: 10px;
+    padding: 10px;
+}
+.b {
+    background-color:  #2460a5;
+    color: white;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 6px;
+    margin: 3px;
+    padding: 8px;
+}
