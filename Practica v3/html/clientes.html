@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>PracticaII</title>
+</head>
+<body>
+    <header class="header-barra">
+        <a href="../html/index.html"><img src="../img/acceso.png" class="ico-login"></a>
+        <button class="back-button" onclick="goBack()"><</button>
+        <h3>Clientes</h3>
+    </header>
+    <main class="container-clientes">
+        <form action="clientes.php" method="POST">
+            <label class="c" for="Apellido">Apellido</label>
+            <input class="c"="text" name="Apellido"><br>
+            <label class="c"for="nombre">Nombre</label>
+            <input class="c"type="text" name="Nombre"><br>
+            <label class="c"for="text">Dirección</label>
+            <input class="c"type="text" name="Direccion"><br>
+            <label class="c"for="phone">Telefono</label>
+            <input class="c"type="phone" name="Telefono"><br><br>
+            <button class="b" type="submit" name="send1">Cargar</button>
+            <button class="b"type="submit" name="send2">Modificar</button>
+            <button class="b"type="submit" name="send3">Eliminar</button>
+        </form>
+        
+    </main>
+    <script src="../Js/script.js"></script>
+</body>
+
+</html>

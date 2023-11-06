@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>PracticaII</title>
+</head>
+<body>
+    <header class="header-barra">
+        
+        <h3>Iniciar Sesión</h3>
+    </header>
+    <main>
+        <div class="container-sesion">
+            <img src="../img/nardelli.jpg" class="nardelli-ico"><br>
+            <img src="../img/user-ico.png" class="user-ico"><br>
+            <form action="../php/conectar.php" method="POST" class="container-input">
+                <input class ="input" type="text" name="User" placeholder="Ingrese su Usuario" maxlength="23"><br><br>
+                <input class ="input" type="password" name="Password" placeholder="Ingrese su Contraseña" maxlength="23"><br><br>
+                <button class="btn-iniciar"type="submit" name="send">Iniciar Sesión</button>
+            </form>    
+        </div>
+    </main>
+    <script src="../Js/script.js"></script>
+</body>
+
+</html>
